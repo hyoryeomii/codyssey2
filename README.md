@@ -179,14 +179,13 @@
 - 프로젝트 에셋의 체계적인 관리와 재사용성 향상을 위해 아래와 같은 표준 폴더 구조를 기반으로 파일을 배치함
 
 ```
-LeGreener_Project/
-├── 📁 01_Planning/          # 기획서(스토리보드, 텍스트 프롬프트 등..)
-├── 📁 02_Raw_Assets/        # AI 생성 원본 소스 폴더
-│   ├── 📁 Images/          # 생성형 원본 이미지
-│   ├── 📁 Videos/          # 생성형 원본 비디오
-│   └── 📁 Audio/           # Suno BGM, ElevenLabs TTS 원본
-├── 📁 03_Editing/           # CapCut 프로젝트 파일 및 가편집본
-└── 📁 04_Outputs/           # 최종 렌더링 완료된 광고 영상
+LeGreener_Project
+├── 📁 01_Planning          # 기획서(스토리보드, 텍스트 프롬프트 등..)
+├── 📁 02_Raw_Assets        # AI 생성 원본 소스 폴더
+│   ├── 📁 Images           # 생성형 원본 이미지
+│   ├── 📁 Videos           # 생성형 원본 비디오
+│   └── 📁 Audio            # Suno BGM, ElevenLabs TTS 원본
+└── 📁 03_Outputs            # 최종 렌더링 완료된 광고 영상
 ```
 
 ### 7.2 버전 관리 정책
